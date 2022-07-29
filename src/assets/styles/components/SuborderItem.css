@@ -1,0 +1,37 @@
+.suborder__container
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.suborder
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	height: 3rem;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.suborder--dark
+{
+	background-color: #5f5f5f;
+	color: #fff;
+}
+
+.suborder--light
+{
+	background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 425px)
+{
+	.suborder
+	{
+		flex-direction: column;
+		height: max-content;
+	}
+}

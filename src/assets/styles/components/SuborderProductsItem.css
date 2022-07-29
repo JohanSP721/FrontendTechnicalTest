@@ -1,0 +1,20 @@
+.product__form
+{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.product__form .warning
+{
+	font-size: smaller;
+}
+
+@media screen and (max-width: 425px)
+{
+	.product__form
+	{
+		flex-direction: column;
+	}
+}
